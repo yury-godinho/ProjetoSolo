@@ -1,0 +1,15 @@
+C:\PESSOAL\DIO\.NET\ProjetoSolo\bin\Debug\net7.0\ProjetoSolo.exe
+C:\PESSOAL\DIO\.NET\ProjetoSolo\bin\Debug\net7.0\ProjetoSolo.deps.json
+C:\PESSOAL\DIO\.NET\ProjetoSolo\bin\Debug\net7.0\ProjetoSolo.runtimeconfig.json
+C:\PESSOAL\DIO\.NET\ProjetoSolo\bin\Debug\net7.0\ProjetoSolo.dll
+C:\PESSOAL\DIO\.NET\ProjetoSolo\bin\Debug\net7.0\ProjetoSolo.pdb
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.csproj.AssemblyReference.cache
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.GeneratedMSBuildEditorConfig.editorconfig
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.AssemblyInfoInputs.cache
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.AssemblyInfo.cs
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.csproj.CoreCompileInputs.cache
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.dll
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\refint\ProjetoSolo.dll
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.pdb
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ProjetoSolo.genruntimeconfig.cache
+C:\PESSOAL\DIO\.NET\ProjetoSolo\obj\Debug\net7.0\ref\ProjetoSolo.dll
