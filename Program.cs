@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ProjetoSoloCalc
 {
@@ -12,23 +12,8 @@ namespace ProjetoSoloCalc
             string Final;
             decimal Valor;
             
-            Final = "A";
             while(Final.ToUpper() != "#sair")
-
                 {
-                        Console.WriteLine();
-                        Console.WriteLine("Informe um número: ");
-                        
-
-                        if (decimal.TryParse(Console.ReadLine(), out decimal PrimeiroNumwk))
-                        {
-                            PrimeiroNum = PrimeiroNumwk;
-                        }
-                        else
-                        {
-                            throw new ArgumentException("O valor deve ser decimal");
-                        }
-
                         Console.WriteLine();
                         Console.WriteLine("Informe a operação: ");
                         Operador = Console.ReadLine()!;
