@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace ProjetoSoloCalc
 {
@@ -9,11 +9,24 @@ namespace ProjetoSoloCalc
             decimal PrimeiroNum = 0;
             decimal SegundoNum = 0;
             string Operador;
-            string Final;
+            string Final = "A";
             decimal Valor;
             
-            while(Final.ToUpper() != "#sair")
+            while(Final.ToUpper() != "#FIM")
                 {
+                     Console.WriteLine();
+                        Console.WriteLine("Informe um número: ");
+                        
+
+                        if (decimal.TryParse(Console.ReadLine(), out decimal PrimeiroNumwk))
+                        {
+                            PrimeiroNum = PrimeiroNumwk;
+                        }
+                        else
+                        {
+                            throw new ArgumentException("O valor deve ser decimal");
+                        }
+
                         Console.WriteLine();
                         Console.WriteLine("Informe a operação: ");
                         Operador = Console.ReadLine()!;
@@ -44,7 +57,7 @@ namespace ProjetoSoloCalc
                                     Console.WriteLine();
                                     Console.WriteLine($"Resultado da Multiplicação: {PrimeiroNum} * {SegundoNum} = {Valor}");
                                     Console.WriteLine();
-                                    Console.WriteLine("Para finalizar digite #SAIR ");
+                                    Console.WriteLine("Para finalizar digite #FIM ou para continuar clique no ENTER ");
                                 
                                 break;
 
@@ -53,7 +66,7 @@ namespace ProjetoSoloCalc
                                     Console.WriteLine();
                                     Console.WriteLine($"Resultado da Soma: {PrimeiroNum} + {SegundoNum} = {Valor}");
                                     Console.WriteLine();
-                                    Console.WriteLine("Para finalizar digite #SAIR ");
+                                    Console.WriteLine("Para finalizar digite #FIM ou para continuar clique no ENTER ");
                                 
                                 break;
 
@@ -62,7 +75,7 @@ namespace ProjetoSoloCalc
                                     Console.WriteLine();
                                     Console.WriteLine($"Resultado da Subtração: {PrimeiroNum} - {SegundoNum} = {Valor}");
                                     Console.WriteLine();
-                                    Console.WriteLine("Para finalizar digite #SAIR ");
+                                    Console.WriteLine("Para finalizar digite #FIM ou para continuar clique no ENTER ");
                                 
                                 break;
 
@@ -71,13 +84,14 @@ namespace ProjetoSoloCalc
                                     Console.WriteLine();
                                     Console.WriteLine($"Resultado da Subtração: {PrimeiroNum} / {SegundoNum} = {Valor}");
                                     Console.WriteLine();
-                                    Console.WriteLine("Para finalizar digite #SAIR ou para continuar clique no ENTER");
+                                    Console.WriteLine("Para finalizar digite #FIM ou para continuar clique no ENTER");
                                 break;
 
                                 default:
                                     throw new ArgumentOutOfRangeException();
 
                         }
+
                     Final = Console.ReadLine()!;
                 }
             
